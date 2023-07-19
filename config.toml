@@ -1,0 +1,22 @@
+﻿#Config for pull pullcd2
+#Client and key from https://identity.instructure.com/login/
+client = ""
+key= ""
+#The full path name to store the completed CSVs
+#C:\\Users\\groot\\iam\\example\\folder
+fullPathName=""
+#"csv" = Csv,"parquet" = Parquet,"tsv" = Tsv,"json" => JsonLines
+tableType = ""
+#comma seperated list of applicable tables EXAMPLE:("accounts, assignment_groups, assignment_override_students")
+tableList = ""
+#Push data to MSSQL database?
+# "true" or "false"
+toDataBase = ""
+#database connection string EX(Server=***;Database=****;etc)
+connection = ""
+# delete the csv/tsv/json/etc files when complete? 
+# "true" or "false"
+purgeCsvFiles = ""
+# delete the tarball(.gz) files when complete
+# "true" or "false"
+purgeTarballFiles = ""
